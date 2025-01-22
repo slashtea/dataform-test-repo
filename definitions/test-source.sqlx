@@ -1,0 +1,11 @@
+config {
+    type: "view"
+}
+
+SELECT
+    "apples" AS fruit,
+    2 AS count
+UNION all
+SELECT
+    "oranges" AS fruit,
+    5 AS count
